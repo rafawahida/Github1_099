@@ -1,0 +1,104 @@
+﻿/* style CSS untuk signature park responsive */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header { 
+    background-color: #5fa4e8; 
+    color: #0066cc;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+p {
+    font-size: 18px;
+}
+
+.room-images {
+    display: flex; /* Mengubah gambar menjadi flex container */
+    justify-content: wrap; /* Membuat gambar terdistribusi dengan ruang di antara mereka */
+    align-items: center; /* Menyelaraskan gambar secara vertikal di tengah */
+}
+
+.room-images div {
+     flex: 1; /* Membuat setiap gambar memiliki ukuran yang sama */
+     margin: 0 10px; /* Memberi ruang di antara gambar */
+     max-width: 300px;
+     text-align: center;
+}
+
+.room-images img {
+    max-width: 100%; /* Gambar akan menyesuaikan ukuran layar */
+    height: auto; /* Menjaga aspek gambar */
+}
+
+h1 {
+    color: #0066cc;
+}
+
+/* Mengubah warna latar belakang header menjadi kuning */
+header {
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul.navbar-nav {
+    display: flex; /* Untuk membuat tautan sejajar */
+    justify-content: center; /* Untuk meletakkan tautan di tengah */
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul.navbar-nav li {
+        margin: 0 20px; /* Spasi antara tautan */
+    }
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
